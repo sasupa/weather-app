@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>head}}
+  </head>
+<body>
+    {{>header}}
+    <div class="container">
+    <p>{{msg}}</p>
+    <form>
+      <input placeholder="Type your location">
+      <button>Search</button>
+      <br>
+      <br>
+
+      <h5 id="msg1"></h5>
+      <p id="msg2"></p>
+
+    </form>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+    {{>scripts}}
+</body>
+</html>
